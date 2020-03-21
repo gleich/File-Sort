@@ -4,7 +4,7 @@ description:  Scalable, easy to use, multi-platform, open source, reliable, fil
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -17,3 +17,9 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  fonts:
+    - family: Dosis
+      fonts:
+        - asset: assets/fonts/Dosis/Dosis-Regular.ttf
+        - asset: assets/fonts/Dosis/Dosis-Bold.ttf
+          weight: 700
